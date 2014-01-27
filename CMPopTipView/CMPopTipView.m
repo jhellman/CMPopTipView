@@ -582,7 +582,7 @@
 
 		_topMargin = 2.0;
 		_pointerSize = 12.0;
-		_sidePadding = 2.0;
+		_sidePadding = 5.0;
         _borderWidth = 1.0;
 		
 		self.textFont = [UIFont boldSystemFontOfSize:14.0];
