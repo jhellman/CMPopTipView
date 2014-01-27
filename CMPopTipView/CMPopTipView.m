@@ -595,8 +595,8 @@
         self.animation = CMPopTipAnimationSlide;
         self.dismissTapAnywhere = NO;
         self.preferredPointDirection = PointDirectionAny;
-        self.hasGradientBackground = YES;
-        self.cornerRadius = 10.0;
+        self.hasGradientBackground = NO;
+        self.cornerRadius = 5.0;
     }
     return self;
 }
