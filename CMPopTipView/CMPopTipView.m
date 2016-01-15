@@ -420,7 +420,10 @@
 								   _bubbleSize.width+_sidePadding*2,
 								   fullHeight);
     
-   	
+    if(_pointDirection == PointDirectionDown)
+    {
+        finalFrame.origin.x -= 10;
+    }
 	if (animated) {
         if (self.animation == CMPopTipAnimationSlide) {
             self.alpha = 0.0;
